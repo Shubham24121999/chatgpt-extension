@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT CSV Runner",
+  "version": "1.0.0",
+  "description": "Submit prompts to ChatGPT and capture answers into CSV/JSON.",
+  "action": { "default_popup": "popup.html" },
+  "permissions": ["activeTab", "scripting", "storage", "downloads", "tabs"],
+  "host_permissions": ["https://chat.openai.com/*", "https://chatgpt.com/*"]
+}
